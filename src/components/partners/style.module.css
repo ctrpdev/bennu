@@ -1,0 +1,36 @@
+.beltContainer {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.belt {
+  white-space: nowrap;
+  width: 200%;
+  animation: moveBelt 20s linear infinite;
+}
+
+.belt img {
+  width: 200px;
+  height: auto;
+  margin-right: 10rem;
+}
+
+@keyframes moveBelt {
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+
+.customBg {
+  background-color: #e3f2fb;
+}
+
+.customTextColor {
+  color: #0d3e76;
+}

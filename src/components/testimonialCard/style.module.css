@@ -1,0 +1,30 @@
+.bg {
+  background-image: url("../../assets/developers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 25vh;
+  width: 100wv;
+}
+
+.testimonialCard {
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+  padding: 3rem;
+  align-items: center;
+}
+
+.testimonialCard:hover {
+  background-color: #dee4eb13;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.02);
+}
+
+.testimonialContent {
+  font-size: 15px;
+  font-weight: light;
+  text-align: center;
+}

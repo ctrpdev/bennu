@@ -1,0 +1,24 @@
+.serviceCard {
+  width: 100%;
+  height: 25rem;
+  transition: 0.3s ease-in-out;
+}
+
+.serviceCard:hover {
+  background-color: #0d3e7613;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.02);
+}
+
+.serviceContent {
+  font-size: 15px;
+  font-weight: light;
+  text-align: justify;
+}
+
+.iconServiceContainer {
+  max-width: 80px;
+  height: 80px;
+}

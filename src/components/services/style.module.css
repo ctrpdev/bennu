@@ -1,0 +1,15 @@
+.services {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-column: auto;
+  grid-template-rows: 2fr;
+}
+
+.customTextColor {
+  color: #0d3e76;
+}
+
+.bgExtra {
+  background-image: url("../../assets/wave-light-blue.svg");
+  background-size: cover;
+}

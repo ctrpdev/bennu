@@ -1,0 +1,19 @@
+.logocustom {
+  max-width: 200px;
+  height: auto;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
+}
+
+.blurcustom {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+}
+
+.textcustom {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.textcustom:hover {
+  color: rgb(176, 214, 255);
+}
