@@ -21,9 +21,30 @@ export function Testimonials() {
               <div className="col-12 col-md-6 col-lg d-flex flex-column flex-lg-row">
                 <TestimonialCard
                   icon={customer}
-                  title={"Cristian R. P."}
+                  title={"Anónimo"}
                   content={
-                    "Excelente lugar para aprender y buen clima laboral. Equipo muy responsable y comprometido."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                />
+                <TestimonialCard
+                  icon={customer}
+                  title={"Anónimo"}
+                  content={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                />
+                <TestimonialCard
+                  icon={customer}
+                  title={"Anónimo"}
+                  content={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                />
+                <TestimonialCard
+                  icon={customer}
+                  title={"Anónimo"}
+                  content={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                   }
                 />
               </div>
